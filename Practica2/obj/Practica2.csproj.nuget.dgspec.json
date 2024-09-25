@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\Practica3\\Practica2\\Practica2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\Practica3\\Practica2\\Practica2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\Practica3\\Practica2\\Practica2.csproj",
+        "projectName": "Practica2",
+        "projectPath": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\Practica3\\Practica2\\Practica2.csproj",
+        "packagesPath": "C:\\Users\\crist_fmbbgue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crist_fmbbgue\\OneDrive\\Documentos\\TUP\\Progra2\\Practica3\\Practica2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\crist_fmbbgue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
